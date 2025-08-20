@@ -1,0 +1,10 @@
+INSERT INTO productos (nombre, edad, email, create_at) VALUES ('Gael', 21, 'gael@email.com', Now());
+INSERT INTO productos (nombre, edad, email, create_at) VALUES ('Sofía', 19, 'sofia@email.com', Now());
+INSERT INTO productos (nombre, edad, email, create_at) VALUES ('Daniel', 25, 'daniel@email.com', Now());
+INSERT INTO productos (nombre, edad, email, create_at) VALUES ('Valeria', 23, 'valeria@email.com', Now());
+INSERT INTO productos (nombre, edad, email, create_at) VALUES ('Andrés', 28, 'andres@email.com', Now());
+INSERT INTO productos (nombre, edad, email, create_at) VALUES ('Mariana', 22, 'mariana@email.com', Now());
+INSERT INTO productos (nombre, edad, email, create_at) VALUES ('Yorch', 30, 'jorge@email.com', Now());
+INSERT INTO productos (nombre, edad, email, create_at) VALUES ('Fernanda', 20, 'fernanda@email.com', Now());
+INSERT INTO productos (nombre, edad, email, create_at) VALUES ('Luis', 27, 'luis@email.com', Now());
+INSERT INTO productos (nombre, edad, email, create_at) VALUES ('Camila', 24, 'camila@email.com', Now());

@@ -1,0 +1,12 @@
+package com.com.formaciondbi.springboot.app.productos.models.service;
+
+import java.util.List;
+
+import com.com.formaciondbi.springboot.app.usuarios.models.entity.Usuario;
+
+public interface IProductoService {
+
+	public List<Usuario> findAll();
+	public Usuario findById(Long id);
+	
+}

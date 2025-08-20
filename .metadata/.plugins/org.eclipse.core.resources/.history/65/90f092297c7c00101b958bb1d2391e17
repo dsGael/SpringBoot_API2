@@ -1,0 +1,5 @@
+package com.com.formaciondbi.springboot.app.productos.models.service;
+
+public class ProductoServiceImpl implements IProductoService{
+
+}
