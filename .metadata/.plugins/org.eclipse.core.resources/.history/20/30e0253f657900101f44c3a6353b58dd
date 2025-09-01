@@ -1,5 +1,0 @@
-package com.com.formaciondbi.springboot.app.productos.models.dao;
-
-public interface ProductoDao {
-
-}

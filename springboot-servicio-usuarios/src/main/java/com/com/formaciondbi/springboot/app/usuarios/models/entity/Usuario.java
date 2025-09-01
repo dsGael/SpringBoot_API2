@@ -13,7 +13,7 @@ import jakarta.persistence.Temporal;
 import jakarta.persistence.TemporalType;
 
 @Entity
-@Table(name = "Usuarios") //si no se declara el nombre, se usa el de la clase
+@Table(name = "Usuarios")
 public class Usuario implements Serializable {
 	
 	/**
@@ -27,13 +27,16 @@ public class Usuario implements Serializable {
 	private String nombre;
 	private int edad;
 	private String email; 
+	private String membresia;
 	
 	@Column(name = "create_at")
 	@Temporal(TemporalType.DATE)
 	private Date createAt;
-	
 	public long getId() {
 		return id;
+	}
+	public void setId(long id) {
+		this.id = id;
 	}
 	public String getNombre() {
 		return nombre;
@@ -41,7 +44,7 @@ public class Usuario implements Serializable {
 	public void setNombre(String nombre) {
 		this.nombre = nombre;
 	}
-	public int getEdad() {
+	public double getEdad() {
 		return edad;
 	}
 	public void setEdad(int edad) {
@@ -59,12 +62,12 @@ public class Usuario implements Serializable {
 	public void setCreateAt(Date createAt) {
 		this.createAt = createAt;
 	}
-
-	public void setId(long id) {
-		this.id = id;
+	public String getMembresia() {
+		return membresia;
 	}
-
-	
+	public void setMembresia(String membresia) {
+		this.membresia = membresia;
+	}
 	
 	
 	

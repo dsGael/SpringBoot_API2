@@ -1,5 +1,0 @@
-package com.com.formaciondbi.springboot.app.productos.controllers;
-
-public class ProductoController {
-
-}

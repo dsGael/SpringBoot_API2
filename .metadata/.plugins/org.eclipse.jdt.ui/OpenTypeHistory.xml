@@ -1,2 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<typeInfoHistroy/>
+<typeInfoHistroy>
+    <typeInfo handle="=springboot-servicio-items/C:\/SprintCloud\/spring-tools-for-eclipse-4.31.0.RELEASE-e4.36.0-win32.win32.x86_64\/sts-4.31.0.RELEASE\/plugins\/org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_21.0.7.v20250502-0916\/jre\/lib\/jrt-fs.jar`java.xml=/javadoc_location=/https:\/\/docs.oracle.com\/en\/java\/javase\/21\/docs\/api\/=/=/maven.pomderived=/true=/&lt;com.sun.org.apache.xerces.internal.xs(ItemPSVI.class[ItemPSVI" modifiers="1537" timestamp="1746177738000"/>
+    <typeInfo handle="=springboot-servicio-items/src\/main\/java=/optional=/true=/=/maven.pomderived=/true=/&lt;com.formaciondbi.springboot.app.item.models.service{ItemService.java[ItemService" modifiers="513" timestamp="1756156652000"/>
+    <typeInfo handle="=springboot-servicio-membresia/src\/main\/java=/optional=/true=/=/maven.pomderived=/true=/&lt;com.formaciondbi.springboot.app.membresia.models.service{MembresiaService.java[MembresiaService" modifiers="513" timestamp="1756405793047"/>
+</typeInfoHistroy>
