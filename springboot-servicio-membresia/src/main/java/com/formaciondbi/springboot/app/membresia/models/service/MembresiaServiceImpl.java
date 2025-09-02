@@ -13,7 +13,7 @@ import org.springframework.web.client.RestTemplate;
 import com.formaciondbi.springboot.app.membresia.models.Membresia;
 import com.formaciondbi.springboot.app.membresia.models.Usuario;
 
-@Service
+@Service("serviceRestTemplate")
 public class MembresiaServiceImpl implements MembresiaService {
 
 	@Autowired

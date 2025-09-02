@@ -17,7 +17,8 @@ import com.formaciondbi.springboot.app.membresia.models.service.MembresiaService
 public class MembresiaController {
 	
 	@Autowired
-	@Qualifier("serviceFeign")
+	@Qualifier("serviceRestTemplate")
+	//@Qualifier("serviceFeign")
 	private MembresiaService membresiaService;
 	
 	@GetMapping("/listar")

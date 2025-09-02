@@ -12,7 +12,7 @@ import com.formaciondbi.springboot.app.membresia.models.Membresia;
 import com.formaciondbi.springboot.app.membresia.models.Usuario;
 
 @Service("serviceFeign")
-@Primary
+//@Primary
 public class MembresiaServiceFeign implements MembresiaService {
 
     @Autowired

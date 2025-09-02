@@ -15,7 +15,8 @@ import com.formaciondbi.springboot.app.item.models.service.ItemService;
 public class ItemController {
 	
 	@Autowired
-	@Qualifier("serviceFeign")
+	@Qualifier("serviceRestTemplate")
+	//@Qualifier("serviceFeign")
 	private ItemService itemService;
 	
 	
