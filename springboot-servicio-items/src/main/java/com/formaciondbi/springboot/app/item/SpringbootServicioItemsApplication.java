@@ -3,7 +3,10 @@ package com.formaciondbi.springboot.app.item;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.cloud.openfeign.EnableFeignClients;
+import org.springframework.cloud.netflix.ribbon.RibbonClient;
 
+
+@RibbonClient(name="servicio-productos")
 @EnableFeignClients
 @SpringBootApplication
 public class SpringbootServicioItemsApplication {
@@ -13,3 +16,4 @@ public class SpringbootServicioItemsApplication {
 	}
 
 }
+
